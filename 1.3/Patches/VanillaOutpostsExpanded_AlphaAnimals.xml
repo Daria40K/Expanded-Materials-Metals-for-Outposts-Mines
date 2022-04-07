@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Expanded Materials - Metals</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationInsert">
+					<xpath>Defs/WorldObjectDef[defName="Outpost_Mining"]/modExtensions/li/Resources/ComponentIndustrial</xpath>
+					<value>
+						<VMEu_Coal>10</VMEu_Coal> <!-- 900 -->
+						<VMEu_Iron>10</VMEu_Iron> <!-- 1500 -->
+						<VMEu_Lead>10</VMEu_Lead> <!-- 1200 -->
+						<VMEu_Tin>10</VMEu_Tin> <!-- 800 -->
+						<VMEu_Copper>10</VMEu_Copper> <!-- 1200 -->
+						<VMEu_Tungsten>15</VMEu_Tungsten> <!-- 3500 -->
+						<VMEu_Titanium>20</VMEu_Titanium> <!-- 4000 -->
+						<VMEu_Lithium>25</VMEu_Lithium> <!-- 4400 -->
+						<VMEu_Germanium>10</VMEu_Germanium> <!-- 1500 -->
+					</value>
+				</li>
+			</operations>
+		</match>
+    </Operation>
+</Patch>
