@@ -12,4 +12,11 @@
 		<assemblyVersion>2.0</assemblyVersion>
 		<content>Updated for RimWorld 1.4</content>
 	</HugsLib.UpdateFeatureDef>
+
+	<!-- v3.0 -->
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>ExpandedMaterialsMetalsPatchOutposts_3_0</defName>
+		<assemblyVersion>3.0</assemblyVersion>
+		<content>Updated for RimWorld 1.5</content>
+	</HugsLib.UpdateFeatureDef>
 </Defs>
