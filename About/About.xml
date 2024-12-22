@@ -4,25 +4,51 @@
 	<author>Daria40K</author>
 	<description>Expanded Materials - Metals Patch for Vanilla Outposts Expanded Mines
 
-This patch add the ores from Expanded Materials - Metals to Vanilla Outposts Expanded so that they can be an output for the outposts mines.
+		This patch add the ores from Expanded Materials - Metals to Vanilla Outposts Expanded so that they can be an output for the outposts mines.
 	</description>
 	<packageId>Daria40K.ExpandedMaterialsMetalsPatchOutposts</packageId>
 	<supportedVersions>
 		<li>1.4</li>
 		<li>1.5</li>
 	</supportedVersions>
-	<modDependencies>
-		<li>
-			<packageId>vanillaexpanded.outposts</packageId>
-			<displayName>Vanilla Outposts Expanded</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2688941031</steamWorkshopUrl>
-		</li>
-		<li>
-			<packageId>argon.expandedmaterials.metals</packageId>
-			<displayName>Expanded Materials - Metals</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3333419387</steamWorkshopUrl>
-		</li> 
-	</modDependencies>
+	<modDependenciesByVersion>
+		<v1.3>
+			<li>
+				<packageId>vanillaexpanded.outposts</packageId>
+				<displayName>Vanilla Outposts Expanded</displayName>
+				<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2688941031</steamWorkshopUrl>
+			</li>
+			<li>
+				<packageId>argon.vmeu</packageId>
+				<displayName>Expanded Materials - Metals</displayName>
+				<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2259837114</steamWorkshopUrl>
+			</li>
+		</v1.3>
+		<v1.4>
+			<li>
+				<packageId>vanillaexpanded.outposts</packageId>
+				<displayName>Vanilla Outposts Expanded</displayName>
+				<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2688941031</steamWorkshopUrl>
+			</li>
+			<li>
+				<packageId>argon.expandedmaterials.metals</packageId>
+				<displayName>Expanded Materials - Metals</displayName>
+				<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3333419387</steamWorkshopUrl>
+			</li>
+		</v1.4>
+		<v1.5>
+			<li>
+				<packageId>vanillaexpanded.outposts</packageId>
+				<displayName>Vanilla Outposts Expanded</displayName>
+				<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2688941031</steamWorkshopUrl>
+			</li>
+			<li>
+				<packageId>argon.expandedmaterials.metals</packageId>
+				<displayName>Expanded Materials - Metals</displayName>
+				<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3333419387</steamWorkshopUrl>
+			</li>
+		</v1.5>
+	</modDependenciesByVersion>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>vanillaexpanded.outposts</li>
